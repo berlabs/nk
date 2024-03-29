@@ -54,7 +54,7 @@ header.scrolling{
     margin-left: 2rem;
     letter-spacing: 0.2rem;
     font-weight: 700;
-    font-size: 3rem; 
+    font-size: 3rem;
     color: var(--color-primary);
     flex-shrink: 1;
 }
@@ -80,7 +80,7 @@ nav {
 }
 nav.menu {
     margin-left:4rem;
-    
+
 }
 nav .nav-item {
     padding:  1.5rem 1rem;
@@ -140,14 +140,14 @@ section.main {
     background-image:
     linear-gradient(to bottom, rgba(255, 255, 255, 0.7) 10%, rgba(221, 216, 212, 0.4)  90%),
     linear-gradient(to left, rgba(255, 255, 255, 0) 50%,  rgb(237, 234, 228) 90%),
-    url('./img/dominik.jpg');
+    url('./img1/r12.jpg'); /*url('./img1/dominik.jpg');*/
     background-size: cover;
     background-position: bottom;
     max-height: 90%;
     padding-top: 8rem;
     animation: clipPath 4s forwards;
     transition: all 1s ease-in;
-    filter: drop-shadow(0 1rem 3rem rgba(32, 32, 31, 0.5));    
+    filter: drop-shadow(0 1rem 3rem rgba(32, 32, 31, 0.5));
 }
 
 @keyframes clipPath {
@@ -172,11 +172,11 @@ section.main {
             67% 100%, 70% 99%, 72% 99.5%, 73% 99%, 75% 100%,
             77% 100%, 80% 99.5%, 82% 99%, 85% 100%, 87% 99%,
             89% 99%, 92% 99.5%, 94% 100%, 96% 99.5%, 97% 99.2%
-                                , 100% 100% , 100% 0%);                             
-        
+                                , 100% 100% , 100% 0%);
+
     }
   }
-  
+
 /* section.main {
     display: flex;
     justify-content: space-between;
@@ -261,7 +261,7 @@ section.events {
     align-items: center;
     margin-top: -2rem;
     background: linear-gradient(to bottom , rgba(217,214,205,0.4) , rgba(84, 81, 78, 0.952)) ,
-                url('./img/dino.jpg');
+    url('./img1/sunset.png');     /*url('./img/dino.jpg');*/
     background-size: cover;
     background-position: center;
     /* background-blend-mode: color; */
@@ -304,9 +304,9 @@ section.events .action {
 
 .card {
     flex: 0 0 30%;
-    
+
     background-color: var(--color-tertiary);
-    
+
     width: 400px;
     max-width: 450px;
 
@@ -334,7 +334,7 @@ section.events .action {
     -webkit-filter: none; /* Safari 6.0 - 9.0 */
     filter: none;
     transition: all 0.5s ease-in;
-    
+
 }
 .card:hover {
     cursor: pointer;
@@ -399,7 +399,7 @@ section.plans .plan .cover img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    
+
 }
 section.plans .plan .offer {
     flex: 1 1 50%;
@@ -445,7 +445,7 @@ section.explore {
     background-color: rgb(250,243,239)  ;
     background-image:
     linear-gradient(to bottom, rgba(255, 255, 255, 0.2) 10%, rgba(221, 216, 212, 0.4)  90%),
-    url('./img/dominik.jpg');
+    url('./img1/sunset12.jpg'); /*url('./img/dominik.jpg');*/
     background-size: cover;
     background-position: bottom;
     box-shadow: 0 0 0.5rem 0.5rem rgba(175, 171, 169, 0.61);
@@ -500,7 +500,7 @@ section.explore .mail .content .subtitle{
 }
 
 .form {
-    max-width: 95%;    
+    max-width: 95%;
 }
 
 .form .inline-input {
@@ -511,7 +511,7 @@ section.explore .mail .content .subtitle{
     box-shadow: 0 0 0.5rem 0.2rem var(--bg-color-secondary);
 
 }
-.form .inline-input input:focus {    
+.form .inline-input input:focus {
     box-shadow: -0.3rem 0.3rem 0.5rem 0.2rem var(--bg-color-secondary);
 }
 .form .inline-input input {
@@ -519,7 +519,7 @@ section.explore .mail .content .subtitle{
     padding: 1.5rem;
     font-size: 2rem;
     outline: none;
-    
+
 }
 .form .inline-input .btn-form {
     box-shadow: -0.5rem 0 0.5rem 0.2rem var(--bg-color-secondary);
@@ -832,41 +832,41 @@ main.plans .plans .plan .content .meta .btn-action{
 
     section.events .header .title {
         font-size: 3.5rem;
-        
-    
+
+
     }
     section.events .header .subtitle {
         font-size: 1.8rem;
-        
+
     }
-    
+
     .cards-row {
-        
+
         margin: 1rem 0;
     }
-    
+
     .card {
          max-width: 350px;
     }
-    
-    
+
+
     .card .body {
         flex: 0 0 40%;
         color: white;
         padding: 1.5rem;
     }
-    
+
     .card .body .title {
             font-size: 2rem;
             margin-bottom: 0.5rem;
     }
-    
-    
-    
+
+
+
 }
 
 @media (max-height : 500px ){
-    
+
     section.main .content .header .title {
         font-size: 4rem;
         margin-bottom: 0;
@@ -881,10 +881,10 @@ main.plans .plans .plan .content .meta .btn-action{
         font-size: 1.7rem;
         margin-bottom: 0.5rem;
 
-        
+
     }
-    
-    
+
+
 }
 
 @media (max-height : 400px) {
@@ -894,7 +894,7 @@ main.plans .plans .plan .content .meta .btn-action{
     }
     section.main .content {
         padding-bottom: 0;
-        
+
     }
 }
 @media (max-width : 950px) {
@@ -910,7 +910,7 @@ main.plans .plans .plan .content .meta .btn-action{
         padding: 0.5rem 4rem;
         margin: 4rem 0;
     }
-    
+
     .menu .nav-item {
         display: none;
         padding: 0.5rem 1rem;
@@ -935,7 +935,7 @@ main.plans .plans .plan .content .meta .btn-action{
     .menu-toggle {
         display: flex;
         flex-direction: column;
-        
+
     }
     .menu-toggle .nav-item {
         display: block;
@@ -943,20 +943,20 @@ main.plans .plans .plan .content .meta .btn-action{
         animation: appear 0.5s alternate;
     }
 
-    
-    
-    
-    
+
+
+
+
 }
 
 @media (max-width : 720px) {
-    
+
     .cards-row {
         flex-direction: column;
         max-width: 100%;
-        
+
     }
-    
+
     .cards-row .card {
         margin: 2rem;
         max-width: 450px;
@@ -973,7 +973,7 @@ main.plans .plans .plan .content .meta .btn-action{
         display: block;
         padding-top: 0;
     }
-    
+
     section.plans .plan {
         width: 90%;
         flex-direction: column;
@@ -985,7 +985,7 @@ main.plans .plans .plan .content .meta .btn-action{
 
     }
 
-    
+
     section.plans .plan .offer {
         padding: 2rem;
     }
@@ -1004,7 +1004,7 @@ main.plans .plans .plan .content .meta .btn-action{
     header .brand .brand-name {
         display: none;
     }
-    
+
 }
 
 
@@ -1017,10 +1017,10 @@ main.plans .plans .plan .content .meta .btn-action{
         align-items:  center;
         border-radius: none ;
         box-shadow: none;
-    
+
     }
     main.plans .plans .plan .content {
-        
+
         padding:1rem 1.5rem;
     }
     main.plans .plan .content .title {
@@ -1029,7 +1029,7 @@ main.plans .plans .plan .content .meta .btn-action{
     main.plans .plan .content .details {
         margin-bottom: 0.5rem !important;
     }
-    .form .inline-input input:focus {    
+    .form .inline-input input:focus {
         box-shadow: 0 0 0.5rem 0.2rem var(--bg-color-secondary);
     }
     .form .inline-input input {
@@ -1037,18 +1037,18 @@ main.plans .plans .plan .content .meta .btn-action{
         font-size: 2rem;
         margin-bottom: 2rem;
         border-radius: 0.5rem;
-        
+
     }
     .form .inline-input .btn-form {
         box-shadow: 0 0 0.5rem 0.2rem var(--bg-color-secondary);
         font-weight: 600;
-    
+
     }
-    
+
     .cards-row {
         align-items: center;
     }
-    
+
     .cards-row .card {
         margin: 2rem;
         width: auto;
@@ -1064,7 +1064,7 @@ main.plans .plans .plan .content .meta .btn-action{
     }
 
 
-    
+
 }
 
 @media( max-width : 349px) {
