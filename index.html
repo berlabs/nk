@@ -10,59 +10,6 @@
 </head>
 <body>
 
-<!--
-<div id="buttons">
-  <h2>Buttons</h2>
-
-  <div>
-  	<button type="button" id="share-button">Share</button>
-  	<button type="button" id="send-button">Send/Chat</button>
-  </div>
-</div>
-
-
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId            : '2220391788200892', // '369619016057231', REPLACE IF YOU WANT TO USE YOUR OWN FB APP
-      autoLogAppEvents : true,
-      xfbml            : true,
-      version          : 'v19.0'
-    });
-  };
-
-  document.getElementById('share-button').addEventListener('click', function() {
-	FB.ui({
-		method: 'share',
-		href:'https://otikbenita.com'
-		}, function (response) {
-			console.log(response);
-		});
-	});
-
-  document.getElementById('send-button').addEventListener('click', function() {
-	FB.ui({
-		method: 'send',
-		link:'https://otikbenita.com'
-		}, function (response) {
-			console.log(response);
-		});
-	});
-
-
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "https://connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-</script>
--->
-
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
-
-
     <header id="nav">
         <div class="brand">
             <a href="./index.html">
